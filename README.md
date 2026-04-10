@@ -1,16 +1,22 @@
-# React + Vite
+# React tachometer and engine sound synthesizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Details
+Developer: Michele Mincone
+Date: 09 april 2026
 
-Currently, two official plugins are available:
+## Brief description
+This is an experiment I made with Claude Code to push its limits on math a rational reasoning. Thanks to Claude Opus 4.6 and my own bug fixing and math skills, I was able to make this nice web app in around 45 minutes. On this web app you have a tachometer and a frequency generator that emulates engine sounds based on the RPM value that you can set
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies involved
+- Vite (as frontend tooling and as build tool, you'll need nodejs installed on your machine)
+- ReactJS
+- Tone (the main library used as library to generate sound)
 
-## React Compiler
+Note that you'll find all the dependecies inside `package.json`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting started
+To use this project on your machine you have to:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `git clone` this repository
+- then you must open your terminal and install all the dependecies with `npm i`
+- finally you can run the local server with `npm run dev` and enjoy this little project
